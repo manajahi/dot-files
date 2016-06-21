@@ -106,8 +106,8 @@ xterm*cursorBlink: true
 xterm*metaSendsEscape: true	
 xterm.VT100.translations: #override \
 			Ctrl <Key>space: string(0x00) \n\
-			Ctrl <Key>Prior: scroll-back(25) \n\
-			Ctrl <Key>Next: scroll-forw(25) \n\
+			<Key>Prior: scroll-back(25) \n\
+			<Key>Next: scroll-forw(25) \n\
 			Ctrl <Key>Return: spawn-new-terminal()			
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
